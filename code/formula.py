@@ -1,7 +1,7 @@
 """
 START: 08/03/21
 TODO
----better parsing: not impose to have variables composed of
+---better parsing: don't impose to have variables composed of
     only one letter
 """
 import re

@@ -17,8 +17,8 @@ def op_and(A, B):
     FUNCTION
     It does 'A and B'
     PARAMETHERS
-    - A : list of int = 0, 1
-    - B : list of int = 0, 1
+    - A : list of int = {0, 1}
+    - B : list of int = {0, 1}
     RETURN
     list of values, resulting from the and between each value
     of A, B
@@ -36,8 +36,8 @@ def op_or(A, B):
     FUNCTION
     It does 'A or B'
     PARAMETHERS
-    - A : list of int = 0, 1
-    - B : list of int = 0, 1
+    - A : list of int = {0, 1}
+    - B : list of int = {0, 1}
     RETURN
     list of values, resulting from the or between each value
     of A, B
@@ -55,8 +55,8 @@ def op_imp(A, B):
     FUNCTION
     It does 'A implies B'
     PARAMETHERS
-    - A : list of int = 0, 1
-    - B : list of int = 0, 1
+    - A : list of int = {0, 1}
+    - B : list of int = {0, 1}
     RETURN
     list of values, resulting from the implication between each value
     of A, B
@@ -74,8 +74,8 @@ def op_co(A, B):
     FUNCTION
     It does 'A co-implies B'
     PARAMETHERS
-    - A : list of int = 0, 1
-    - B : list of int = 0, 1
+    - A : list of int = {0, 1}
+    - B : list of int = {0, 1}
     RETURN
     list of values, resulting from the co-implication between each value
     of A, B

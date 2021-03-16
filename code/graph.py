@@ -11,7 +11,7 @@ class Node(object):
     "Represents a node. Each node has: id, name ('and', 'A'...), type_logic"
     def __init__(self, id, name):
         """
-        initalize the node with:
+        initialize the node with:
         -id, int
         -name, str
         -type_logic: CON or VAR
