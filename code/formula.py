@@ -73,7 +73,7 @@ class Formula(object):
 
         return variables
 
-#VARIABILI DI PROVA
+#TESTING VARIABLES
 input_ex = 'A and (B or C)'
 formula_ex = Formula(input_ex)
 formula_ex.print_variables()

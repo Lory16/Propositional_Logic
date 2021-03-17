@@ -6,3 +6,7 @@ START: 08/03/21
 CONSTRAINTS
 -variables must be uppercase, one single character
 """
+import re
+
+#TESTING VARIABLES
+input_ex = 'A and (B or C)'

@@ -6,12 +6,12 @@ CONNECTIVES
 -implies : 'imp'
 -coimplies : 'co'
 """
-#VARIABILI DI PROVA
+#TESTING VARIABLES
 A = [True, True, False, False]
 B = [True, False, True, False]
 
 
-#DEFINIZIONE FUNZIONI
+#FUNCTIONS DEFINITION
 def op_and(A, B):
     """
     FUNCTION
